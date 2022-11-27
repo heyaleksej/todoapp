@@ -1,0 +1,109 @@
+.container {
+  .editModeWrapper {
+    display: block;
+    padding: 5px;
+
+    .buttons {
+      display: flex;
+      width: 100%;
+      align-items: center;
+      border-radius: 5px;
+      justify-content: space-between;
+
+      .save {
+        font-size: 40px;
+        font-weight: 700;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+
+      .cancel {
+        font-size: 40px;
+        font-weight: 700;
+        cursor: pointer;
+        transition: 0.3s;
+        width: 60px;
+        color: darkred;
+      }
+
+      .save:hover,
+      .cancel:hover {
+        font-size: 50px;
+      }
+    }
+  }
+
+  .taskWrapper {
+    height: max-content;
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 10px;
+    color: #444;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+    .top {
+      display: block;
+      justify-content: space-between;
+      align-items: center;
+      white-space: pre-wrap;
+
+      .title {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding-bottom: 3px;
+      }
+
+      .description {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        word-break: break-all;
+        max-height: 100px;
+        overflow-y: scroll;
+        border: 1px solid saddlebrown;
+        border-radius: 15px;
+        padding: 15px;
+        background-color: whitesmoke;
+        box-sizing: border-box
+
+      }
+    }
+
+    .buttonsWrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .checked {
+        display: flex;
+        align-items: center;
+      }
+
+      .done {
+        font-size: 40px;
+        font-weight: 700;
+        cursor: pointer;
+        margin-right: 10px;
+      }
+
+      .edit {
+        font-size: 30px;
+        cursor: pointer;
+        padding-right: 30px
+      }
+
+      .delete {
+        font-size: 30px;
+        cursor: pointer;
+      }
+    }
+    .img {
+      display: flex;
+      padding: 10px;
+      height: 140px;
+      cursor: pointer;
+      margin-left: auto
+    }
+  }
+}

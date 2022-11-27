@@ -1,0 +1,41 @@
+body {
+  margin: 0 10% 0 10%;
+  display: block;
+  height: 100vh;
+  align-items: center;
+  font-family: Cochin, sans-serif;
+  background: linear-gradient(rgb(255, 255, 255, 0.2), rgb(255, 255, 255, 0.2)), url("https://cdn.pixabay.com/photo/2021/09/13/21/06/floral-background-6622475_1280.png");
+}
+
+.app {
+  justify-content: center;
+  display: flex;
+
+  .create-form {
+    display: block;
+    height: 100%;
+    margin: 10px;
+    width: 400px;
+  }
+
+  .todo-wrapper {
+    display: block;
+    padding: 0 10px;
+    margin: 10px;
+    width: 500px;
+    height: calc(100vh - 100px);
+    overflow-y: scroll;
+  }
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 15px;
+  text-align: center;
+  text-shadow: 0 1px 1px white;
+}
+
+.woman{
+  font-family: "Snell Roundhand", sans-serif;
+}
