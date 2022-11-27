@@ -2,6 +2,8 @@
   "name": "todoapp",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://heyaleksej.github.io/todoapp",
+
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
