@@ -86,14 +86,14 @@ const CreateTodo = () => {
                     className={style.title}
                     id='outlined-basic'
                     name='title'
-                    label='Enter task title...'
+                    label='Название...'
                     variant='outlined'
                     value={title}
                     onChange={(e) => setTitle(e.target.value)}
                 />
                 <DatePicker
                     className={style.date}
-                    label='Deadline'
+                    label='Выполнить до'
                     ampm={false}
                     inputFormat={'DD-MM-YYYY'}
                     value={deadline}
@@ -106,7 +106,7 @@ const CreateTodo = () => {
                     value={description}
                     className={style.text}
                     id='outlined-multiline-static'
-                    label='Description...'
+                    label='Описание...'
                     multiline
                     rows={4}
                     onChange={(e) => setDescription(e.target.value)}
@@ -119,7 +119,7 @@ const CreateTodo = () => {
                     disabled={!title}
                     onClick={addTodo}
                 >
-                    Add Todolist
+                    Добавить задачу
                 </Button>
             </div>
         </LocalizationProvider>

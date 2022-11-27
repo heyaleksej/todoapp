@@ -37,5 +37,25 @@ body {
 }
 
 .woman{
-  font-family: "Snell Roundhand", sans-serif;
+  //font-family: "Snell Roundhand", sans-serif;
+}
+
+
+@media screen and (max-width: 500px){
+  body{
+    margin: 0 1% 0 1%;
+
+  }
+  .app{
+    display: block;
+    .create-form{
+      width: unset;
+      margin: 1px;
+    }
+    .todo-wrapper{
+      padding: 0;
+      width: unset;
+      margin: 1px;
+    }
+  }
 }
